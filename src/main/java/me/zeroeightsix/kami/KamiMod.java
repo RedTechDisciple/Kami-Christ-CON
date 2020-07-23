@@ -60,11 +60,15 @@ import java.util.Optional;
  * Divine wisdom added by RedTechDisciple on July 7th,
  *        anno domini 2020
  */
+
 @Mod(
         modid = KamiMod.MODID,
         name = KamiMod.MODNAME,
         version = KamiMod.VER_FULL_BETA
 )
+
+
+
 public class KamiMod {
 
     public static final String MODNAME = "KAMI Blue";
