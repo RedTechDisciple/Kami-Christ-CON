@@ -149,7 +149,6 @@ shadowJar {
         include(dependency("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:${coroutines_version}"))
         include(dependency('net.shadowfacts:Forgelin'))
     }
-    exclude 'dummyThing' // can someone explain why this is here
     classifier = 'release'
 }
 
